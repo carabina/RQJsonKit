@@ -13,6 +13,18 @@
 		5E68644B1FDA550700D4CE64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E68644A1FDA550700D4CE64 /* Assets.xcassets */; };
 		5E68644E1FDA550700D4CE64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E68644C1FDA550700D4CE64 /* LaunchScreen.storyboard */; };
 		5E6864511FDA550700D4CE64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6864501FDA550700D4CE64 /* main.m */; };
+		5E68645C1FDA7AFA00D4CE64 /* RQUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E68645B1FDA7AFA00D4CE64 /* RQUser.m */; };
+		5E6864601FDA7CB200D4CE64 /* NSObject+RQJsonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E68645F1FDA7CB200D4CE64 /* NSObject+RQJsonKit.m */; };
+		5E6864641FDA7D7800D4CE64 /* RQJsonKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6864631FDA7D7800D4CE64 /* RQJsonKitManager.m */; };
+		5E6864681FDA81FD00D4CE64 /* RQClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6864671FDA81FD00D4CE64 /* RQClassInfo.m */; };
+		5E6EA55A1FF4E2FF0032475E /* RQTransformOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EA5591FF4E2FF0032475E /* RQTransformOperation.m */; };
+		5E6EA5611FF4EDA20032475E /* NSString+RQJsonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EA5601FF4EDA20032475E /* NSString+RQJsonKit.m */; };
+		5E81D2411FF4961600D1988C /* RQJsonKitConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E81D2401FF4961600D1988C /* RQJsonKitConst.m */; };
+		5E81D2451FF49D5800D1988C /* RQJsonKitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E81D2441FF49D5800D1988C /* RQJsonKitTool.m */; };
+		5E9DB7981FE8ED98004FA74B /* RQPropertyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DB7971FE8ED98004FA74B /* RQPropertyInfo.m */; };
+		5EC4BEBF200372C7007E6736 /* RQMappingKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4BEBE200372C7007E6736 /* RQMappingKey.m */; };
+		5EF90E4A1FDE5AC200D73C08 /* RQJsonKitCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF90E491FDE5AC200D73C08 /* RQJsonKitCache.m */; };
+		5EFFCC521FF34C05006249F9 /* RQPropertyTypeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFFCC511FF34C05006249F9 /* RQPropertyTypeInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,30 @@
 		5E68644D1FDA550700D4CE64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E68644F1FDA550700D4CE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E6864501FDA550700D4CE64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E68645A1FDA7AFA00D4CE64 /* RQUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQUser.h; sourceTree = "<group>"; };
+		5E68645B1FDA7AFA00D4CE64 /* RQUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQUser.m; sourceTree = "<group>"; };
+		5E68645E1FDA7CB200D4CE64 /* NSObject+RQJsonKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+RQJsonKit.h"; sourceTree = "<group>"; };
+		5E68645F1FDA7CB200D4CE64 /* NSObject+RQJsonKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RQJsonKit.m"; sourceTree = "<group>"; };
+		5E6864621FDA7D7800D4CE64 /* RQJsonKitManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQJsonKitManager.h; sourceTree = "<group>"; };
+		5E6864631FDA7D7800D4CE64 /* RQJsonKitManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQJsonKitManager.m; sourceTree = "<group>"; };
+		5E6864661FDA81FD00D4CE64 /* RQClassInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQClassInfo.h; sourceTree = "<group>"; };
+		5E6864671FDA81FD00D4CE64 /* RQClassInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQClassInfo.m; sourceTree = "<group>"; };
+		5E6EA5581FF4E2FF0032475E /* RQTransformOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQTransformOperation.h; sourceTree = "<group>"; };
+		5E6EA5591FF4E2FF0032475E /* RQTransformOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQTransformOperation.m; sourceTree = "<group>"; };
+		5E6EA55F1FF4EDA20032475E /* NSString+RQJsonKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+RQJsonKit.h"; sourceTree = "<group>"; };
+		5E6EA5601FF4EDA20032475E /* NSString+RQJsonKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+RQJsonKit.m"; sourceTree = "<group>"; };
+		5E81D23F1FF4961600D1988C /* RQJsonKitConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQJsonKitConst.h; sourceTree = "<group>"; };
+		5E81D2401FF4961600D1988C /* RQJsonKitConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQJsonKitConst.m; sourceTree = "<group>"; };
+		5E81D2431FF49D5800D1988C /* RQJsonKitTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQJsonKitTool.h; sourceTree = "<group>"; };
+		5E81D2441FF49D5800D1988C /* RQJsonKitTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQJsonKitTool.m; sourceTree = "<group>"; };
+		5E9DB7961FE8ED98004FA74B /* RQPropertyInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQPropertyInfo.h; sourceTree = "<group>"; };
+		5E9DB7971FE8ED98004FA74B /* RQPropertyInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQPropertyInfo.m; sourceTree = "<group>"; };
+		5EC4BEBD200372C7007E6736 /* RQMappingKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQMappingKey.h; sourceTree = "<group>"; };
+		5EC4BEBE200372C7007E6736 /* RQMappingKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQMappingKey.m; sourceTree = "<group>"; };
+		5EF90E481FDE5AC200D73C08 /* RQJsonKitCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQJsonKitCache.h; sourceTree = "<group>"; };
+		5EF90E491FDE5AC200D73C08 /* RQJsonKitCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQJsonKitCache.m; sourceTree = "<group>"; };
+		5EFFCC501FF34C05006249F9 /* RQPropertyTypeInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQPropertyTypeInfo.h; sourceTree = "<group>"; };
+		5EFFCC511FF34C05006249F9 /* RQPropertyTypeInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQPropertyTypeInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,8 @@
 		5E6864401FDA550700D4CE64 /* RQJsonKit */ = {
 			isa = PBXGroup;
 			children = (
+				5E6864571FDA7ABE00D4CE64 /* RQJsonKit */,
+				5E6864591FDA7AE500D4CE64 /* Model */,
 				5E6864411FDA550700D4CE64 /* AppDelegate.h */,
 				5E6864421FDA550700D4CE64 /* AppDelegate.m */,
 				5E6864441FDA550700D4CE64 /* ViewController.h */,
@@ -69,6 +107,108 @@
 				5E6864501FDA550700D4CE64 /* main.m */,
 			);
 			path = RQJsonKit;
+			sourceTree = "<group>";
+		};
+		5E6864571FDA7ABE00D4CE64 /* RQJsonKit */ = {
+			isa = PBXGroup;
+			children = (
+				5EC4BEC02004D74C007E6736 /* Protocol */,
+				5E6EA5571FF4E2C80032475E /* Operation */,
+				5E81D2421FF49D2900D1988C /* Tool */,
+				5E81D23E1FF495F300D1988C /* Const */,
+				5EF90E471FDE5A7400D73C08 /* RQCache */,
+				5E6864651FDA81C800D4CE64 /* Common */,
+				5E6864611FDA7D5300D4CE64 /* Manager */,
+				5E68645D1FDA7C4100D4CE64 /* Category */,
+			);
+			path = RQJsonKit;
+			sourceTree = "<group>";
+		};
+		5E6864591FDA7AE500D4CE64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E68645A1FDA7AFA00D4CE64 /* RQUser.h */,
+				5E68645B1FDA7AFA00D4CE64 /* RQUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E68645D1FDA7C4100D4CE64 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5E68645E1FDA7CB200D4CE64 /* NSObject+RQJsonKit.h */,
+				5E68645F1FDA7CB200D4CE64 /* NSObject+RQJsonKit.m */,
+				5E6EA55F1FF4EDA20032475E /* NSString+RQJsonKit.h */,
+				5E6EA5601FF4EDA20032475E /* NSString+RQJsonKit.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5E6864611FDA7D5300D4CE64 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5E6864621FDA7D7800D4CE64 /* RQJsonKitManager.h */,
+				5E6864631FDA7D7800D4CE64 /* RQJsonKitManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5E6864651FDA81C800D4CE64 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5E6864661FDA81FD00D4CE64 /* RQClassInfo.h */,
+				5E6864671FDA81FD00D4CE64 /* RQClassInfo.m */,
+				5E9DB7961FE8ED98004FA74B /* RQPropertyInfo.h */,
+				5E9DB7971FE8ED98004FA74B /* RQPropertyInfo.m */,
+				5EFFCC501FF34C05006249F9 /* RQPropertyTypeInfo.h */,
+				5EFFCC511FF34C05006249F9 /* RQPropertyTypeInfo.m */,
+				5EC4BEBD200372C7007E6736 /* RQMappingKey.h */,
+				5EC4BEBE200372C7007E6736 /* RQMappingKey.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5E6EA5571FF4E2C80032475E /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				5E6EA5581FF4E2FF0032475E /* RQTransformOperation.h */,
+				5E6EA5591FF4E2FF0032475E /* RQTransformOperation.m */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		5E81D23E1FF495F300D1988C /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				5E81D23F1FF4961600D1988C /* RQJsonKitConst.h */,
+				5E81D2401FF4961600D1988C /* RQJsonKitConst.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		5E81D2421FF49D2900D1988C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				5E81D2431FF49D5800D1988C /* RQJsonKitTool.h */,
+				5E81D2441FF49D5800D1988C /* RQJsonKitTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		5EC4BEC02004D74C007E6736 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		5EF90E471FDE5A7400D73C08 /* RQCache */ = {
+			isa = PBXGroup;
+			children = (
+				5EF90E481FDE5AC200D73C08 /* RQJsonKitCache.h */,
+				5EF90E491FDE5AC200D73C08 /* RQJsonKitCache.m */,
+			);
+			path = RQCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +283,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E6864461FDA550700D4CE64 /* ViewController.m in Sources */,
+				5E81D2451FF49D5800D1988C /* RQJsonKitTool.m in Sources */,
+				5E6864641FDA7D7800D4CE64 /* RQJsonKitManager.m in Sources */,
+				5E6864601FDA7CB200D4CE64 /* NSObject+RQJsonKit.m in Sources */,
+				5E68645C1FDA7AFA00D4CE64 /* RQUser.m in Sources */,
+				5EF90E4A1FDE5AC200D73C08 /* RQJsonKitCache.m in Sources */,
 				5E6864511FDA550700D4CE64 /* main.m in Sources */,
+				5E81D2411FF4961600D1988C /* RQJsonKitConst.m in Sources */,
+				5E9DB7981FE8ED98004FA74B /* RQPropertyInfo.m in Sources */,
+				5E6EA5611FF4EDA20032475E /* NSString+RQJsonKit.m in Sources */,
 				5E6864431FDA550700D4CE64 /* AppDelegate.m in Sources */,
+				5EC4BEBF200372C7007E6736 /* RQMappingKey.m in Sources */,
+				5E6EA55A1FF4E2FF0032475E /* RQTransformOperation.m in Sources */,
+				5E6864681FDA81FD00D4CE64 /* RQClassInfo.m in Sources */,
+				5EFFCC521FF34C05006249F9 /* RQPropertyTypeInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
